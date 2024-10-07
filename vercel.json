@@ -1,0 +1,6 @@
+{
+    "rewrites": [{ "source": "/(.*)", "destination": "/api/main.py" }],
+    "env": {
+      "GOOGLE_API_KEY": "AIzaSyA_jMrk2zSlIJOUic6v-5zCscQoUUObNOM"
+    }
+  }
