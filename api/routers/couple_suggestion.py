@@ -87,7 +87,7 @@ async def analyze_images(
         ### 4. Occasion Context
         Summarize how the recommendations align with the occasion's theme and requirements.
 
-        Input: **Occasion**: {{occasion}}
+        Input: **Occasion**: {occasion}
         """
 
         response = genai.GenerativeModel("gemini-1.5-flash").generate_content([prompt, image1, image2])
